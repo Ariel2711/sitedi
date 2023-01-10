@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "774476016706",
+    "project_id": "sitedi-a4a08",
+    "storage_bucket": "sitedi-a4a08.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774476016706:android:317d732e611fc34f2911db",
+        "android_client_info": {
+          "package_name": "com.sitedi.sitedi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "774476016706-tphub85qp1fe74su42qdf3o0gm9qt8s5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABEZBEwk-BLPxQLNvZH8YWBdSugdb0_VE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "774476016706-tphub85qp1fe74su42qdf3o0gm9qt8s5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

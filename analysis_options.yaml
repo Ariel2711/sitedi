@@ -9,3 +9,8 @@ linter:
     prefer_typing_uninitialized_variables: false
     must_be_immutable: false
     use_key_in_widget_constructors: false
+    body_might_complete_normally_nullable: false
+    avoid_print: false
+    avoid_unnecessary_containers: false
+    prefer_final_fields: false
+    

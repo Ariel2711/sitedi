@@ -97,47 +97,6 @@ BoxDecoration boxDecoration(
   );
 }
 
-// Widget appBarTitleWidget(context, String title,
-//     {Color? color, Color? textColor}) {
-//   return Container(
-//     width: MediaQuery.of(context).size.width,
-//     height: 60,
-//     color: color ?? colorLight,
-//     child: Row(
-//       children: <Widget>[
-//         Text(
-//           title,
-//           style: boldTextStyle(color: color ?? textPrimaryColor, size: 20),
-//           maxLines: 1,
-//         ).expand(),
-//       ],
-//     ),
-//   );
-// }
-
-// AppBar appBar(BuildContext context, String title,
-//     {List<Widget>? actions,
-//     bool showBack = true,
-//     Color? color,
-//     Color? iconColor,
-//     Color? textColor}) {
-//   return AppBar(
-//     automaticallyImplyLeading: false,
-//     backgroundColor: color ?? colorLight,
-//     leading: showBack
-//         ? IconButton(
-//             onPressed: () {
-//               finish(context);
-//             },
-//             icon: Icon(Icons.arrow_back, color: black),
-//           )
-//         : null,
-//     title:
-//         appBarTitleWidget(context, title, textColor: textColor, color: color),
-//     actions: actions,
-//   );
-// }
-
 Widget boxContainer(
         {required List<Widget> widgets,
         EdgeInsetsGeometry? padding,

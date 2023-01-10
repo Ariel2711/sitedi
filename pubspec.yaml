@@ -12,7 +12,11 @@ dependencies:
   carousel_slider: ^4.1.1
   convex_bottom_bar: ^3.1.0+1
   cupertino_icons: ^1.0.2
+  cloud_firestore: ^4.3.1
   dropdown_search: ^2.0.1
+  firebase_core: ^2.4.1
+  firebase_storage: ^11.0.10
+  firebase_auth: ^4.2.4
   flutter_native_splash: ^2.1.2+1
   flutter_localizations:
     sdk: flutter
@@ -20,7 +24,7 @@ dependencies:
   flutter_quill: ^6.1.11
   get: ^4.6.1
   image_picker: ^0.8.4+11
-  lottie: ^1.2.2
+  lottie: ^2.1.0
   intl: ^0.17.0
   introduction_screen: ^3.0.0
   nb_utils: ^4.4.14
@@ -37,12 +41,12 @@ flutter:
     - images/
   uses-material-design: true
 
-# flutter_native_splash:
-#   image: 
-#   color: "#F2F2F2"
+flutter_native_splash:
+  image: "images/logo_image.png"
+  color: "#F2F2F2"
 
-# flutter_icons:
-#   android: launcher_icon
-#   image_path: 
-#   remove_alpha_ios: true
-#   ios: true
+flutter_icons:
+  android: launcher_icon
+  image_path: "images/logo.png"
+  remove_alpha_ios: true
+  ios: true
